@@ -11,4 +11,4 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 ## React Hook Form
 
-Link oficial para documentação da API [https://react-hook-form.com/pt/api](AQUI);
+Link oficial para documentação da API [aqui](https://react-hook-form.com/pt/api);
