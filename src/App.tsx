@@ -45,11 +45,11 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <form onSubmit={handleSubmit(onSubmit)}>
-        <input ref={register({ required: true })} name="nome" placeholder="nome" defaultValue={user.nome} onChange={(event) => setValue("nome", event.target.value)}/>
-        <input ref={register({ required: true })} name="sobrenome" placeholder="sobrenome" defaultValue={user.sobrenome} onChange={(event) => setValue("sobrenome", event.target.value)}/>
-        <input ref={register({ required: true })} name="email" placeholder="email" defaultValue={user.email} onChange={(event) => setValue("email", event.target.value)}/>
-        <input ref={register({ required: true })} name="password" placeholder="password" defaultValue={user.password} onChange={(event) => setValue("password", event.target.value)}/>
-        <input ref={register({ required: true })} name="descricao" placeholder="descricao" defaultValue={user.descricao} onChange={(event) => setValue("descricao", event.target.value)}/>
+        <input ref={register({ required: true })} name="nome" placeholder="nome" defaultValue={user.nome} />
+        <input ref={register({ required: true })} name="sobrenome" placeholder="sobrenome" defaultValue={user.sobrenome} />
+        <input ref={register({ required: true })} name="email" placeholder="email" defaultValue={user.email} />
+        <input ref={register({ required: true })} name="password" placeholder="password" defaultValue={user.password} />
+        <input ref={register({ required: true })} name="descricao" placeholder="descricao" defaultValue={user.descricao} />
 
         <div className="buttons">
           <button type="submit">Editar</button>
